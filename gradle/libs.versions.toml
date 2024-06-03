@@ -6,9 +6,16 @@ android-targetSdk = "34"
 kotlin = "2.0.0"
 compose-plugin = "1.6.10"
 compose-activity = "1.9.0"
+voyager = "1.1.0-beta01"
+splashscreen = "1.0.1"
 
 [libraries]
 compose-activity = { module = "androidx.activity:activity-compose", version.ref = "compose-activity" }
+voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager" }
+voyager-transitions = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyager" }
+voyager-screenmodel = { module = "cafe.adriel.voyager:voyager-screenmodel", version.ref = "voyager" }
+
+androidx-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "splashscreen" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

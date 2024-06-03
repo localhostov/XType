@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.XType.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_screen_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_xtype_animated</item>
+        <item name="windowSplashScreenAnimationDuration">2147483647</item>
+        <item name="postSplashScreenTheme">@style/Theme.XType</item>
+    </style>
+
+    <style name="Theme.XType" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splash_screen_background</item>
+        <item name="android:statusBarColor">@color/splash_screen_background</item>
+        <item name="android:navigationBarColor">@color/splash_screen_background</item>
+    </style>
+</resources>
